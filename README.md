@@ -57,12 +57,14 @@ pip install -r requirements.txt
 
 ```
 YOLOv8-Hand-Gesture-Recognition/
-├── app.py                  # Gradio 交互式前端 & ONNX 推理核心逻辑
 ├── requirements.txt        # 项目依赖库清单
+├── scripts/                    # 脚本文件夹
+│   ├── train.py
+│   ├── detect.py
+│   └── export_onnx.py
 ├── best.onnx               # 导出的轻量化推理模型
 ├── cbam_p3.yaml            # 带 CBAM 的模型配置文件
 ├── data.yaml               # 数据集配置
-├── assets/                 # 演示素材（截图、GIF等）
 └── README.md               # 项目说明文档
 ```
 
