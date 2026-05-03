@@ -1,3 +1,4 @@
+```markdown
 # ✌️ YOLOv8-Gesture: 基于注意力机制的手势识别系统
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
@@ -28,19 +29,61 @@
 > **结论**：引入注意力机制后，模型不仅精度更高，且经过 ONNX 优化后，推理延迟大幅降低，完全满足实时性要求。
 
 ---
+
 ## 🚀 快速开始
 
 ### 1. 环境配置
 确保你的电脑上安装了 Python 3.8 及以上版本，然后克隆本项目并安装依赖：
+
 ```bash
 git clone https://github.com/你的用户名/YOLOv8-Hand-Gesture-Recognition.git
 cd YOLOv8-Hand-Gesture-Recognition
 pip install -r requirements.txt
+```
 
-## 2. 模型准备
+### 2. 模型准备
 请将训练好的 ONNX 模型文件（命名为 `best.onnx`）放置于项目根目录下。
 > 注：由于 GitHub 文件大小限制，模型文件需自行训练或从下方链接获取。
+
+### 3. 启动应用
+在终端运行以下命令启动 Web 交互界面：
+
+```bash
+python app.py
+```
+
+启动成功后，浏览器将自动弹出（或访问 `http://localhost:7860`），上传图片即可体验实时识别。
 
 ---
 
 ## 📁 项目结构
+
+```
+YOLOv8-Hand-Gesture-Recognition/
+├── app.py                  # Gradio 交互式前端 & ONNX 推理核心逻辑
+├── requirements.txt        # 项目依赖库清单
+├── best.onnx               # 导出的轻量化推理模型
+├── cbam_p3.yaml            # 带 CBAM 的模型配置文件
+├── data.yaml               # 数据集配置
+├── assets/                 # 演示素材（截图、GIF等）
+└── README.md               # 项目说明文档
+```
+
+---
+
+## 🖼️ 效果展示
+
+*(建议在这里放一张你的识别截图或 GIF 动图)*
+
+---
+
+## 📝 技术博客
+
+[项目完整解析](https://你的博客链接)
+
+---
+
+## 📄 许可证
+
+本项目仅供学习与技术交流使用，遵循 MIT 开源协议。
+```这个markdown代码有问题吗
