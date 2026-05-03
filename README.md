@@ -24,7 +24,8 @@
 | :--- | :---: | :---: | :---: |
 | YOLOv8 (Baseline) | 0.92 | 0.72 | 39.95 ms |
 | **YOLOv8 + CBAM (Ours)** | **0.95** ⬆️ | **0.75** ⬆️ | **25.21 ms** ⬇️ |
-以下为基础模型与加入注意力层后微调模型对比：
+
+                        以下为基础模型与加入注意力层后微调模型对比：
 <img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/ca2b0011-5b91-4b26-a041-432857def2d6" />
 
 <img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/9658746f-4ab9-4710-871c-d34a5638e305" />
