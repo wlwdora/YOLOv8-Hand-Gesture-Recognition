@@ -58,11 +58,8 @@ YOLOv8-Hand-Gesture-Recognition/
 
 ## 🖼️ 效果展示
 
-<img width="1206" height="920" alt="505f270b557b4c9a02aebe6f922c0b9d" src="https://github.com/user-attachments/assets/b59d0fb3-94b5-46d1-b6b5-ab081bac0294" />
 
-
-
-
+<img width="1206" height="920" alt="505f270b557b4c9a02aebe6f922c0b9d" src="https://github.com/user-attachments/assets/5a5d22fa-5f31-40a0-a74c-f93e36a6f858" />
 ---
 
 
